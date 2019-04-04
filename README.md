@@ -52,6 +52,14 @@ run the code.
 
 ## Training the models used for inoculation
 
+You can download the pretrained models we used in the paper with the links below:
+
+- Decomposable Attention ([Matched](https://s3-us-west-2.amazonaws.com/ai2-nelsonl/adversarial/models/decomposable_attention_original_matched/model.tar.gz), [Mismatched](https://s3-us-west-2.amazonaws.com/ai2-nelsonl/adversarial/models/decomposable_attention_original_mismatched/model.tar.gz))
+- ESIM ([Matched](https://s3-us-west-2.amazonaws.com/ai2-nelsonl/adversarial/models/esim_original_matched/model.tar.gz), [Mismatched](https://s3-us-west-2.amazonaws.com/ai2-nelsonl/adversarial/models/esim_original_mismatched/model.tar.gz))
+- ESIM + character-level component ([Matched](https://s3-us-west-2.amazonaws.com/ai2-nelsonl/adversarial/models/esim_character_level_matched/model.tar.gz), [Mismatched](https://s3-us-west-2.amazonaws.com/ai2-nelsonl/adversarial/models/esim_character_level_mismatched/model.tar.gz))
+- [BiDAF](https://s3-us-west-2.amazonaws.com/ai2-nelsonl/adversarial/models/bidaf_original/model.tar.gz)
+- [QANet](https://s3-us-west-2.amazonaws.com/ai2-nelsonl/adversarial/models/qanet_original/model.tar.gz)
+
 AllenNLP configuration files for training the NLI models used for inoculation
 can be found
 in
